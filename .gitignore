@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependency directories (often replaced by go mod)
+vendor/
+
+# Go build cache
+*.log
+*.tmp
+*.old
+*.swp
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.bak
+*.lock
+*~
+
+# Go modules and cache
+/go.sum
+/go.work.sum
+
+# Coverage files
+coverage.out
+
+# Configurations and secrets (ensure you're not tracking sensitive files)
+/.env
